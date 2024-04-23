@@ -211,11 +211,16 @@ export default {
           V2Ray: "v2ray",
           Trojan: "trojan",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://subconver-hilaotie.koyeb.app/sub?" }],
         remoteConfig: [
           {
             label: "universal",
             options: [
+              {
+                label: "DNS防泄漏",
+                value:
+                  "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
+              },
               {
                 label: "No-Urltest",
                 value:
