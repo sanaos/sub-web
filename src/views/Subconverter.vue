@@ -187,7 +187,7 @@ const tgBotLink = process.env.VUE_APP_BOT_LINK
 export default {
   data() {
     return {
-      backendVersion: "https://subconver-hilaotie.koyeb.app/sub?",
+      backendVersion: "老铁订阅转换",
       advanced: "2",
 
       // 是否为 PC 端
